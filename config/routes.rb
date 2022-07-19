@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   # devise_for :models
   # get "articles#index"
   get 'home/about'
+  get 'home/contact'
   
   root 'home#index'
 
