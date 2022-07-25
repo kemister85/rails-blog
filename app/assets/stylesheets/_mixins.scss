@@ -1,0 +1,14 @@
+.copywrite {
+
+    color: blue;
+    font-size: 3rem;
+}
+
+.karl {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin hoverstate(){
+    border-radius: 40px;
+}

@@ -1,3 +1,5 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -12,4 +14,31 @@
  *
  *= require_tree .
  *= require_self
- */
+ *= require_mixins.scss
+ *= require_variables.scss
+
+ *//*# sourceMappingURL=application.css.map */
+ @import "variables"; //adding pathshell to main.scss
+ @import "mixins"; //adding mixins to main.scss
+
+ .apple {
+    background-color: $primarycolour; //setting background color
+    color: white;
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+    margin-bottom: 64px;
+  }
+
+  .testing {
+    padding: 0;
+    background-color: #0b0c10;
+    text-decoration: none;
+    color: #fff;
+    font-size: 6rem;
+        &:hover{
+            @include hoverstate;
+            font-size: 10rem;
+            color: $hovercolor;
+        }
+
+  }
