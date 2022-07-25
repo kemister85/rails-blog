@@ -10922,6 +10922,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.copywrite {
+  color: blue;
+  font-size: 3rem;
+}
+
+.karl {
+  display: flex;
+  justify-content: center;
+}
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -10939,17 +10949,8 @@ textarea.form-control-lg {
  *= require_mixins.scss
  *= require_variables.scss
 
+
  */ /*# sourceMappingURL=application.css.map */
-.copywrite {
-  color: blue;
-  font-size: 3rem;
-}
-
-.karl {
-  display: flex;
-  justify-content: center;
-}
-
 .apple {
   background-color: green;
   color: white;

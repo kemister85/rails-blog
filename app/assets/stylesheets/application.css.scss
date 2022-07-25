@@ -1,4 +1,9 @@
 @import '../../../node_modules/bootstrap/scss/bootstrap';
+@import "variables"; //adding pathshell to main.scss
+@import "mixins"; //adding mixins to main.scss
+@import "mediaQueries";
+@import "buttons";
+@import "article";
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
@@ -17,9 +22,9 @@
  *= require_mixins.scss
  *= require_variables.scss
 
+
  *//*# sourceMappingURL=application.css.map */
- @import "variables"; //adding pathshell to main.scss
- @import "mixins"; //adding mixins to main.scss
+
 
  .apple {
     background-color: $primarycolour; //setting background color
