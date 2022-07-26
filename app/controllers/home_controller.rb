@@ -8,6 +8,10 @@ class HomeController < ApplicationController
 
   def contact
 
-  end 
+  end
+
+  def journey
+
+  end
 
 end

@@ -4,9 +4,10 @@ Rails.application.routes.draw do
   # get "articles#index"
   get 'home/about'
   get 'home/contact'
+  get 'home/journey'
+  # get 'views/articles'
   
   root 'home#index'
-
   resources :articles do
     resources :comments
   end
