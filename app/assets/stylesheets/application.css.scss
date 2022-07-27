@@ -1,8 +1,12 @@
 @import '../../../node_modules/bootstrap/scss/bootstrap';
-@import "variables"; //adding pathshell to main.scss
-@import "mixins"; //adding mixins to main.scss
-@import "components";
-@import "layout";
+
+@import '../stylesheets/variables';
+@import '../stylesheets/mixins'; //adding mixins to main.scss
+@import '../stylesheets/components';
+@import '../stylesheets/layout';
+
+
+
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files

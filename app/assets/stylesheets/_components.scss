@@ -7,9 +7,10 @@
     margin-left: 20px;
 
     .btn-primary {
-        background-color: $primarycolour;
+        background-color: "variables.$primarycolour";
         &:hover {
             transform: scale(1.1);
+
         }
      }
 }

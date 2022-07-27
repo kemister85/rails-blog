@@ -14,7 +14,7 @@ body {
 }
 
 .navbar {
-   background-color: $primarycolour;
+   background-color: "variables.$primarycolour";
    padding:10px;
 
    .navbar-brand {
@@ -42,7 +42,7 @@ footer {
    width:100%;
    height:50px;
    z-index: 1;
-   background-color: $bannercolour;
+   background-color: yellow;
 
    ul {
       padding-left: 0;
